@@ -1,0 +1,25 @@
+button{
+    padding: 10px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(244, 50, 20, 0.8), rgba(233,200,100, 0.5));
+}
+button:hover{
+    filter: hue-rotate(45deg);
+    transition: 1s;
+    padding: 15px;
+    
+}
+p{
+    color: #a12100;
+    text-decoration: overline underline  green;
+    font-size: 2rem;
+}
+@media screen and (max-width = "700px") {
+    p,button{
+        width: 100%;
+    }
+    p{
+        font-size: 1rem;
+    }
+    
+}
